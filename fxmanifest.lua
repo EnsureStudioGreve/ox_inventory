@@ -39,7 +39,7 @@ files {
     'web/build/index.html',
     'web/build/assets/*.js',
     'web/build/assets/*.css',
-    'web/images/*.png',
+    'web/images/*.webp',
     'audioeffects/dragaudio.mp3',
     'modules/**/shared.lua',
     'modules/**/client.lua',
