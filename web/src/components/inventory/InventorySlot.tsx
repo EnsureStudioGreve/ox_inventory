@@ -16,6 +16,13 @@ import { closeTooltip, openTooltip } from '../../store/tooltip';
 import { openContextMenu } from '../../store/contextMenu';
 import { useMergeRefs } from '@floating-ui/react';
 
+const playDragAudio = () => {
+  const audio = new Audio('/audioeffects/dragaudio.mp3');
+  audio.volume = 0.25;
+  audio.play().catch(() => {});
+};
+
+
 interface SlotProps {
   inventoryId: Inventory['id'];
   inventoryType: Inventory['type'];
