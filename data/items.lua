@@ -4,7 +4,7 @@ return {
 		weight = 220,
 		degrade = 60,
 		client = {
-			image = 'burger_chicken.png',
+			image = 'burger_chicken.webp',
 			status = { hunger = 200000 },
 			anim = 'eating',
 			prop = 'burger',
@@ -117,7 +117,7 @@ return {
 	['identification'] = {
 		label = 'Identification',
 		client = {
-			image = 'card_id.png'
+			image = 'card_id.webp'
 		}
 	},
 
@@ -214,7 +214,7 @@ return {
 		stack = false,
 		weight = 10,
 		client = {
-			image = 'card_bank.png'
+			image = 'card_bank.webp'
 		}
 	},
 
