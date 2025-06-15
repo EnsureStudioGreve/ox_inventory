@@ -82,7 +82,7 @@ const InventorySlot: React.ForwardRefRenderFunction<HTMLDivElement, SlotProps> =
             onDrop(source, { inventory: inventoryType, item: { slot: item.slot } });
             break;
         }
-           playDragAudio();
+           DragAudio();
       },
       canDrop: (source) =>
         (source.item.slot !== item.slot || source.inventory !== inventoryType) &&
