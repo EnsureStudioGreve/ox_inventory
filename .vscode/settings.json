@@ -1,0 +1,10 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": ".*",
+        "cmd": "powershell -Command \"git diff --quiet; if ($LASTEXITCODE -ne 0) { git add .; git commit -m 'Auto commit'; git push }\""
+      }
+    ]
+  }
+}

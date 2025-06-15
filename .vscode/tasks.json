@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Git Auto Commit and Push (PowerShell)",
+      "type": "shell",
+      "command": "git diff --quiet; if ($LASTEXITCODE -ne 0) { Write-Host 'Endringer oppdaget, committer...'; git add .; git commit -m \"Auto commit\"; git push } else { Write-Host 'Ingen endringer å committe.' }",
+      "problemMatcher": [],
+      "options": {
+        "shell": {
+          "executable": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        }
+      }
+    }
+  ]
+}
